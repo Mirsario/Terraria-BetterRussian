@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using ReLogic.Graphics;
 using Terraria;
 
@@ -5,11 +6,11 @@ namespace BetterRussian
 {
 	partial class BetterRussianMod
 	{
+		private bool hasBackups;
 		private DynamicSpriteFont[] combatTextBackup;
 		private DynamicSpriteFont deathTextBackup;
 		private DynamicSpriteFont itemStackBackup;
 		private DynamicSpriteFont mouseTextBackup;
-		private bool hasBackups;
 
 		private void LoadFonts()
 		{
