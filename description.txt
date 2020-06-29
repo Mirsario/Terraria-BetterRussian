@@ -1,0 +1,7 @@
+ENG:
+
+This mod replaces the ugly vanilla Russian font with a beautiful Cyrillic version of Andy Bold (the font that the game uses for English), which fits this game perfectly and, most importantly, doesn't make your anyone's eyes bleed.
+
+RUS:
+
+Этот мод заменяет отвратительный ванильный русский шрифт на красивую русифицированную версию Andy Bold (шрифт, используемый игрой для английского языка), которая идеально подходит этой игре и, самое главное, не вызывает ни у кого кровотечения из глаз.
