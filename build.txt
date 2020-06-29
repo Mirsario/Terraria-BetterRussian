@@ -1,6 +1,6 @@
 displayName = Better Russian Font (Улучшенный русский шрифт)
 author = Translators Team & Mirsario
-version = 0.1
+version = 1.0
 includeSource = true
 hideResources = false
 hideCode = false
