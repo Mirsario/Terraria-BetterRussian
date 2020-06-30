@@ -11,12 +11,20 @@ namespace BetterRussian
 
 		public override void Load()
 		{
+			if(Main.dedServ) {
+				return;
+			}
+
 			LoadFonts();
 
 			Main.OnPreDraw += PreDraw;
 		}
 		public override void Unload()
 		{
+			if(Main.dedServ) {
+				return;
+			}
+
 			unloadTCS = new TaskCompletionSource<bool>();
 
 			unloadTCS.Task.Wait(); //Graphics have to be unloaded in PreDraw on the main thread, otherwise they may get unloaded as they're used.
